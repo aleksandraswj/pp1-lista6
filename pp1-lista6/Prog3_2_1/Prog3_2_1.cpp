@@ -31,6 +31,6 @@ int main()
 {
 	int a = 5;
 	int b = 10;	
-    std::cout << minWskaznik(&a, &b);
+	cout << minWskaznik(&a, &b);
 }
 
