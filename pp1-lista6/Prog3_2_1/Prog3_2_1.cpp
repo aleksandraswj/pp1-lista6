@@ -18,7 +18,7 @@ int minReferencja(const int& a, const  int& b)
 		return b;
 } 
 
-int minWskaznik(const int* a, const int* b)
+int suma(const int* a, const int* b)
 {
 	if (*a < *b)
 		return *a;
@@ -31,6 +31,6 @@ int main()
 {
 	int a = 5;
 	int b = 10;	
-	cout << minWskaznik(&a, &b);
+	cout << suma(&a, &b);
 }
 

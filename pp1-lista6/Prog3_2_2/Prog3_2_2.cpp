@@ -12,7 +12,6 @@ int* minWskaznik(int* a, int* b)
 		return b;
 }
 
-
 int main()
 {
 	int a = 5;
